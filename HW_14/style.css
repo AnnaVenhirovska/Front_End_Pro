@@ -1,0 +1,45 @@
+.holder {
+    margin-top: 15px;
+    margin-left: 110px;
+    border: 1px solid black;
+    width: 30px;
+    height: 108px;
+    border-radius: 2px;
+    transform: rotate(180deg);
+}
+
+.percentageBlock {
+    position: relative;
+    width: 100%;
+    transition: height 0.3s ease;
+}
+
+.percentageBlock:first-child {
+    background-color: green;
+    height: 76px;
+}
+
+.percentageBlock:nth-child(2) {
+    height: 6px;
+    background-color: red;
+}
+
+.leftLabel {
+    position: absolute;
+    bottom: -10px;
+    right: -45px;
+    color: green;
+    transform: rotate(180deg);
+    text-align: right;
+    width: 40px;
+}
+
+.rightLabel {
+    position: absolute;
+    bottom: -10px;
+    left: -45px;
+    color: red;
+    transform: rotate(180deg);
+    text-align: left;
+    width: 40px;
+}

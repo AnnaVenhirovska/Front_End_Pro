@@ -1,0 +1,26 @@
+Создать вертикальное или горизонтальное (в зависимости от свойства type) меню, в котором будут элементы из свойства items.
+
+1. Inner items - выпадающее меню при наведении мышки.
+2. Handler - хранит название функции, которая выполнится при нажатии на пункт меню.
+
+ data = { 
+ 	name: 'menu', 
+ 	type: 'row|column', 
+ 	items: [
+ 		{
+ 			title: 'title 1',
+ 			handler: 'ActionAdd'
+ 		},
+ 		{
+ 			title: 'title 2',
+ 			handler: 'ActionSaveAs',
+ 			items: [
+ 				{ title: 'inner 1' }, { title: 'inner 2' }
+ 			]
+ 		},
+ 		{
+ 			title: 'title 3',
+ 			handler: 'ActionExit'
+ 		}
+ 	]
+ }

@@ -1,0 +1,19 @@
+.block {
+    padding: 15px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: cyan;
+}
+
+.clear {
+    float: right;
+}
+
+.input {
+    max-width: 70px;
+}
+
+.set {
+    float: right;
+}

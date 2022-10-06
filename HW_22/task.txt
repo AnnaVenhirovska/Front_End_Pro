@@ -1,0 +1,51 @@
+Ğåàëèçîâàòü mock-server
+
+Ñòğóêòóğà API:
+
+#
+
+    /users
+
+        /001
+
+            get.json
+
+                [{ "user": 1 }]
+
+        /002
+
+            get.json
+
+                [{ "user": 2 }]
+
+        /003
+
+            get.json
+
+                [{ "user": 3 }]
+
+        /004
+
+            get.json
+
+                [{ "user": 4 }]
+
+#
+
+Ğåàëèçîâàòü çàïğîñû:
+
+`/user/:userId` - âåğíåò user ïî `id`
+
+`/users` - âåğíåò âñåõ şçåğîâ
+
+`/users/:action`, ãäå `action` ìîæåò áûòü `last`, `first`, `all`
+
+
+Ïğè ñòğóêòóğå ïîäîáíîé âûøå:
+
+
+    last -> [{"user": 4}]
+
+    first -> [{"user": 1}]
+
+    all -> [{"user": 1}, {"user": 2}, {"user": 3}, {"user": 4}]

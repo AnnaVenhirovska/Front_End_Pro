@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+}
+
+td {
+    transition: background-color 0.4s linear;
+}
+
+td:hover {
+    background-color: #cccccc;
+}

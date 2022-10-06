@@ -1,0 +1,124 @@
+body {
+	background-color: #00334d;
+	padding: 10px;
+}
+
+.VerticaldropDown {
+	border: 2px solid white;
+	border-radius: 4px;
+	min-height: 250px;
+	width: 300px;
+	padding-inline-start: 0;
+}
+
+.HorizontaldropDown {
+	border: 2px solid white;
+	border-radius: 4px;
+	min-height: 40px;
+	width: calc(100% - 10px);
+	padding-inline-start: 0;
+}
+
+.HorizontaldropDown  >  li {
+	position: relative;
+	text-align: left;
+	padding: 10px;
+	background-color: #007399;
+	color: white;
+	transition: background-color 0.4s ease;
+	cursor: pointer;
+	list-style-type: none;
+}
+
+.HorizontaldropDown  >  li {
+	display: inline-block;
+	border-right: 1px white solid;
+}
+
+.HorizontaldropDown > li:hover {
+	background-color: #004d66
+}
+
+.innerNav {
+	position: absolute;
+	left: 100%;
+	margin-top: -30px;
+	border-radius: 4px;
+	padding: 5px;
+	width: 100px;
+	display: none;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.HorizontaldropDown > li > .innerNav {
+	left: 0;
+	margin-top: 0px;
+	top: calc(100% + 10px);
+	border-radius: 2px;
+}
+
+.HorizontaldropDown > li > .innerNav::before {
+	content: ''; 
+	position: absolute;
+	left: 0px;
+	top: -10px;
+	width: 100%;
+	height: 10px;
+}
+
+.HorizontaldropDown > li:hover > .innerNav {
+	display: block;
+}
+
+.VerticaldropDown  >  li {
+	position: relative;
+	text-align: left;
+	padding: 10px;
+	background-color: #007399;
+	color: white;
+	border-bottom: 2px solid white;
+	transition: background-color 0.4s ease;
+	cursor: pointer;
+	list-style-type: none;
+}
+
+.VerticaldropDown > li:not(:last-child) {
+	border-bottom: 2px solid white;
+}
+
+.VerticaldropDown > li:hover {
+	background-color: #004d66
+}
+
+
+.VerticaldropDown > li:hover > ul {
+	display: block;
+}
+
+.VerticaldropDown > li > .innerNav {
+	position: absolute;
+	left: 100%;
+	margin-top: -30px;
+	border-radius: 4px;
+	padding: 5px;
+	width: 100px;
+	display: none;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.hoverableItem {
+	transition: background-color 0.4s ease;
+	list-style-type: none;
+}
+
+.hoverableItem:hover {
+	background-color: #cccccc;
+}
+
+.hoverableItem:not(:first-child) {
+	margin-top: 5px;
+}

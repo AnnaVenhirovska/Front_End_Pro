@@ -1,0 +1,10 @@
+.block-name {
+  background-color: cornsilk;
+  border: 0.5px solid black;
+  padding: 2px;
+  margin: 10px;
+}
+
+.highlighted-block {
+  background-color: rgb(108, 237, 214);
+}

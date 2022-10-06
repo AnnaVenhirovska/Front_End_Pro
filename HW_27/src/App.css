@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App .wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.template,
+.control {
+  width: 50%;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.template .elem-row {
+  width: 100%;
+  border-bottom: 1px solid grey;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.template .elem-row:last-child {
+  border-bottom: 0;
+}
+
+.template .elem-title {
+  margin-right: 40px;
+}
+
+.template .form-elem {
+  margin: 10px 0;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.control .control-elem {
+  margin: 10px 0;
+}
+
+.shorted-url-container {
+  padding: 1rem 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.shorted-url-container input {
+  width: auto;
+  text-align: center;
+}
+.input-message-url {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  flex-direction: column;
+}

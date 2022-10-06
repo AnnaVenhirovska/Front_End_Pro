@@ -1,0 +1,16 @@
+{
+    "BookName": [
+        "Anna's Programming Journey",
+        "JavaScript From Zero to Hero",
+        "JavaScript: The Definitive Guide",
+        "Effective JavaScript",
+        "React and Libraries"
+    ],
+    "BookProgress": [
+        25,
+        75,
+        50,
+        100,
+        0
+    ]
+}

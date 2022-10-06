@@ -1,0 +1,79 @@
+.books-title {
+  border-bottom: 1px solid white;
+  color: white;
+  margin: 0;
+}
+.booksLeft {
+  position: fixed;
+  left: 10px;
+  top: 105px;
+  width: 50vw;
+  max-width: 350px;
+  height: calc(100vh - 115px);
+  background: rgba(0, 128, 128, 0.7);
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.booksRight {
+  position: fixed;
+  right: 10px;
+  top: 105px;
+  width: 50vw;
+  max-width: 350px;
+  height: calc(100vh - 115px);
+  background: rgba(0, 128, 128, 0.7);
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.favButton {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 23px;
+  margin-top: -7px;
+  cursor: pointer;
+  color: yellow;
+}
+
+.bookItem {
+  padding: 10px;
+  color: white;
+  transition: background-color 0.2s linear;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.bookItem:hover {
+  background-color: #006666;
+}
+
+.removeBook {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  margin-top: -5px;
+  cursor: pointer;
+  color: lime;
+}
+
+.ProgressBar {
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 40%;
+  background: #00ff00;
+  left: 0px;
+  margin-top: 10px;
+}
+
+.progressIcon {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  margin-top: -5px;
+  cursor: pointer;
+  color: white;
+}

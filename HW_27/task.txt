@@ -1,0 +1,5 @@
+Feature "Share Link"
+
+- Feature - "Share Link"
+- User can generate a link to the generated form
+- Another user can open generated form

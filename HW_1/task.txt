@@ -1,0 +1,3 @@
+Выполнить 2 задания:
+
+https://github.com/hillel-front-end/specification/blob/master/lections/Front-end%20Pro%20%2B%20React/lection_1_Intro.md

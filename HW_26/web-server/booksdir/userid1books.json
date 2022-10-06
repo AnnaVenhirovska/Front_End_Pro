@@ -1,0 +1,16 @@
+{
+    "BookName": [
+        "Anna's Programming Journey",
+        "Testing JavaScript Applications",
+        "The Road to React",
+        "Effective JavaScript",
+        "Multithreaded JavaScript"
+    ],
+    "BookProgress": [
+        25,
+        100,
+        50,
+        75,
+        0
+    ]
+}
